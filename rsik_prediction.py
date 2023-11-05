@@ -9,7 +9,7 @@ import numpy as np
 import sys
 # Load your dataset into a DataFrame
 # For example, if you have a CSV file, you can use pd.read_csv('your_dataset.csv')
-df = pd.read_csv("restaurant_data.csv")
+df = pd.read_csv("restaurant_dataset.csv")
 # Split the data into features and labels
 X = df.drop('Risk_Rating', axis=1)  # Features
 y = df['Risk_Rating']  # Continuous labels
